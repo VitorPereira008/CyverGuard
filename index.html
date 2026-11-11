@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberGuard | Conscientização e Segurança Digital</title>
+  <meta name="description" content="Plataforma educacional sobre cibersegurança, prevenção de golpes digitais e proteção de senhas. Projeto de TCC em Informática para Internet (2026).">
+  <link rel="icon" type="image/png" href="./CYBER.png">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="CyberGuard | Conscientização e Segurança Digital">
+  <meta property="og:description" content="Aprenda a reconhecer golpes na internet e a guardar suas senhas com privacidade local.">
+  <meta property="og:image" content="./CYBER.png">
+  <meta property="og:type" content="website">
+
+  <!-- Fontes & Estilos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page-home">
+  <!-- Acessibilidade -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- LOGO FLUTUANTE DE CABEÇALHO -->
+  <a href="index.html" class="brand-header-logo" id="header-scroll-logo" aria-label="CyberGuard Home">
+    <img src="./CYBER.png" alt="CyberGuard Logo" width="180" height="60">
+  </a>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero__video-container">
+        <video class="hero__video" autoplay loop muted playsinline poster="./img/hero-poster.webp">
+          <source src="./Video.loop.mp4" type="video/mp4">
+        </video>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__content text-center">
+        <div class="hero__logo-wrapper">
+          <img src="./CYBER.png" alt="Logotipo CyberGuard - Escudo e circuito digital" class="hero__logo" width="320" height="106">
+        </div>
+        <h1 class="hero__title">Sua navegação mais <span class="highlight">segura e protegida</span></h1>
+        <p class="hero__subtitle">
+          O CyberGuard é um projeto educacional que ensina você a reconhecer golpes na internet e a guardar suas senhas com privacidade total.
+        </p>
+        <div class="hero__actions mt-32">
+          <a href="cofre.html" class="btn btn-primary btn-lg">Acessar Cofre</a>
+          <a href="dicas.html" class="btn btn-secondary btn-lg">Aprender a se Proteger</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOVA SEÇÃO: COMO FUNCIONA (Aprenda, Verifique, Proteja) -->
+    <section class="section bg-surface hidden-scroll">
+      <div class="container">
+        <h2 class="section__title text-center">Como <span class="highlight">funciona</span></h2>
+        <p class="section__lead text-center">Três passos simples para assumir o controle da sua segurança online.</p>
+
+        <div class="grid-3-cols mt-32">
+          <div class="card text-center items-center">
+            <div class="card__icon icon-amber mx-auto">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3>1. Aprenda</h3>
+            <p class="text-muted text-sm">Entenda como funcionam os ataques de engenharia social, WhatsApp clonado e e-mails falsos através dos nossos guias práticos.</p>
+            <a href="dicas.html" class="card__link mt-auto">Ler Dicas &rarr;</a>
+          </div>
+
+          <div class="card text-center items-center">
+            <div class="card__icon icon-cyan mx-auto">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3>2. Verifique</h3>
+            <p class="text-muted text-sm">Utilize nossas ferramentas de diagnóstico heurístico de links suspeitos e auditoria de senhas para avaliar seus riscos.</p>
+            <a href="dicas.html#verificador-mitos" class="card__link mt-auto">Testar URL &rarr;</a>
+          </div>
+
+          <div class="card text-center items-center">
+            <div class="card__icon icon-green mx-auto">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3>3. Proteja</h3>
+            <p class="text-muted text-sm">Gere e guarde suas credenciais em um cofre com criptografia militar (AES-GCM 256 bits) direto no seu navegador.</p>
+            <a href="cofre.html" class="card__link mt-auto">Abrir Cofre &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hidden-scroll">
+      <div class="container">
+        <h2 class="section__title text-center">O que você <span class="highlight">encontra aqui</span></h2>
+        <p class="section__lead text-center">Recursos práticos para aumentar sua segurança na internet todos os dias.</p>
+
+        <div class="grid-cards">
+          <div class="card">
+            <div class="card__icon icon-blue">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+            </div>
+            <h3>Criar Senhas Fortes</h3>
+            <p class="text-muted">Gere combinações aleatórias e complexas com um clique para proteger suas contas contra invasões.</p>
+            <a href="cofre.html" class="card__link mt-auto">Gerar senha no Cofre &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card__icon icon-cyan">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3>Cofre Criptografado</h3>
+            <p class="text-muted">Guarde suas credenciais com segurança local (AES-GCM). Suas senhas nunca saem do seu computador.</p>
+            <a href="cofre.html" class="card__link mt-auto">Abrir Cofre &rarr;</a>
+          </div>
+
+          <div class="card">
+            <div class="card__icon icon-amber">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
+            <h3>Reconhecer Golpes</h3>
+            <p class="text-muted">Aprenda a identificar os sinais de fraude em mensagens de Pix, WhatsApp, boletos falsos e SMS.</p>
+            <a href="dicas.html" class="card__link mt-auto">Ver guias de golpes &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-surface hidden-scroll">
+      <div class="container">
+        <div class="grid-2-cols items-center">
+          <div>
+            <span class="badge badge-primary mb-16">Boas Práticas</span>
+            <h2>Como criar uma <span class="highlight">senha realmente segura</span></h2>
+            <p class="text-muted mb-24">Seguir regras simples no dia a dia impede que cibercriminosos acessem suas contas pessoais e bancárias.</p>
+            
+            <ul class="rules-list">
+              <li>
+                <span class="rules-list__number">1</span>
+                <div>
+                  <strong>Use frases longas (passphrases):</strong>
+                  <p class="text-muted">Combine 4 ou mais palavras aleatórias (ex: <code>Café-Gato-Nuvem-2026!</code>). O tamanho é mais importante que a complexidade isolada.</p>
+                </div>
+              </li>
+              <li>
+                <span class="rules-list__number">2</span>
+                <div>
+                  <strong>Nunca reutilize a mesma senha:</strong>
+                  <p class="text-muted">Se um site vazar seus dados, invasores tentarão a mesma senha em e-mails, redes sociais e bancos.</p>
+                </div>
+              </li>
+              <li>
+                <span class="rules-list__number">3</span>
+                <div>
+                  <strong>Ative a verificação em duas etapas (2FA):</strong>
+                  <p class="text-muted">Exija um código no celular além da senha para fazer login em serviços essenciais.</p>
+                </div>
+              </li>
+              <li>
+                <span class="rules-list__number">4</span>
+                <div>
+                  <strong>Guarde suas credenciais em um cofre local:</strong>
+                  <p class="text-muted">Não anote senhas em papéis ou blocos de notas desprotegidos. Use um cofre com criptografia.</p>
+                </div>
+              </li>
+              <li>
+                <span class="rules-list__number">5</span>
+                <div>
+                  <strong>Desconfie de links e urgências falsas:</strong>
+                  <p class="text-muted">Nunca digite sua senha após clicar em links recebidos por e-mail, SMS ou redes sociais.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="mt-32">
+              <a href="cofre.html" class="btn btn-primary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+                Gerar uma senha agora
+              </a>
+            </div>
+          </div>
+
+          <div class="img-card">
+            <img src="Foto1.png" alt="Ilustração de proteção de senhas e dados com cadeado e celular" width="500" height="300" loading="lazy">
+            <div class="img-card__fallback">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <span>CyberGuard — Segurança de Senhas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hidden-scroll">
+      <div class="container">
+        <div class="flex-between flex-wrap gap-16 mb-32">
+          <div>
+            <h2>Golpes mais <span class="highlight">comuns na internet</span></h2>
+            <p class="text-muted">Saiba como identificar as fraudes mais frequentes no Brasil.</p>
+          </div>
+          <a href="dicas.html" class="btn btn-secondary">
+            Ver todas as dicas &rarr;
+          </a>
+        </div>
+
+        <div class="grid-cards-4">
+          <div class="card card--compact flex-column">
+            <div class="card__badge badge-alert">Alerta Alto</div>
+            <h3>Pix e Falso Suporte</h3>
+            <p class="text-muted text-sm mb-16">Ligação de "falsa central bancária" pedindo transferências de teste ou cancelamento de compra.</p>
+            <div class="card__tip mt-auto mb-12"><strong>Como identificar:</strong> Bancos nunca pedem Pix para cancelar transações.</div>
+            <a href="dicas.html" class="card__link mt-auto">Ver detalhes &rarr;</a>
+          </div>
+
+          <div class="card card--compact flex-column">
+            <div class="card__badge badge-alert">Alerta Alto</div>
+            <h3>WhatsApp Clonado</h3>
+            <p class="text-muted text-sm mb-16">Mensagem de número novo usando foto de parente com pedido urgente de dinheiro.</p>
+            <div class="card__tip mt-auto mb-12"><strong>Como identificar:</strong> Sempre ligue por voz/vídeo para o número antigo antes de pagar.</div>
+            <a href="dicas.html" class="card__link mt-auto">Ver detalhes &rarr;</a>
+          </div>
+
+          <div class="card card--compact flex-column">
+            <div class="card__badge badge-warn">Atenção</div>
+            <h3>Boleto Adulterado</h3>
+            <p class="text-muted text-sm mb-16">Boleto enviado por e-mail ou WhatsApp com dados do beneficiário alterados.</p>
+            <div class="card__tip mt-auto mb-12"><strong>Como identificar:</strong> Confirme o nome do recebedor e o CNPJ na tela final do banco.</div>
+            <a href="dicas.html" class="card__link mt-auto">Ver detalhes &rarr;</a>
+          </div>
+
+          <div class="card card--compact flex-column">
+            <div class="card__badge badge-warn">Atenção</div>
+            <h3>SMS / Phishing</h3>
+            <p class="text-muted text-sm mb-16">Mensagem avisando sobre "pontos expirando" ou "encomenda presa" com link falso.</p>
+            <div class="card__tip mt-auto mb-12"><strong>Como identificar:</strong> Domínios estranhos e mensagens provocando pânico.</div>
+            <a href="dicas.html" class="card__link mt-auto">Ver detalhes &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTATÍSTICAS COM CORREÇÃO DE ANIMAÇÃO -->
+    <section class="section bg-surface hidden-scroll">
+      <div class="container">
+        <h2 class="section__title text-center">O cenário da <span class="highlight">segurança de dados</span></h2>
+        <p class="section__lead text-center">Estatísticas reais de relatórios internacionais e nacionais sobre cibersegurança.</p>
+
+        <div class="grid-3-cols mt-32">
+          <div class="card text-center">
+            <!-- Corrigido: atributos data-* para animação correta do JavaScript -->
+            <div class="stat-number highlight" data-target="95" data-suffix="%" data-decimals="0">0</div>
+            <h3>Fator Humano</h3>
+            <p class="text-muted text-sm">das brechas de segurança envolvem algum tipo de erro humano ou engenharia social.</p>
+            <span class="stat-source">Fonte: Verizon DBIR (2024)</span>
+          </div>
+
+          <div class="card text-center">
+            <div class="stat-number highlight" data-target="8.4" data-suffix=" Bi" data-decimals="1">0</div>
+            <h3>Senhas Expostas</h3>
+            <p class="text-muted text-sm">de credenciais compiladas em vazamentos de dados disponíveis na web.</p>
+            <span class="stat-source">Fonte: RockYou2024 / Cybernews</span>
+          </div>
+
+          <div class="card text-center">
+            <div class="stat-number highlight" data-target="2.5" data-prefix="R$ " data-suffix=" Bi" data-decimals="1">0</div>
+            <h3>Prevenção de Fraudes</h3>
+            <p class="text-muted text-sm">em tentativas de golpes evitadas anualmente por sistemas defensivos no Brasil.</p>
+            <span class="stat-source">Fonte: Febraban (2024)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hidden-scroll">
+      <div class="container">
+        <div class="grid-2-cols items-center card p-48">
+          <div>
+            <span class="badge badge-primary mb-16">TCC Informática para Internet 2026</span>
+            <h2>Sobre o projeto <span class="highlight">CyberGuard</span></h2>
+            <p class="text-muted mb-16">
+              O CyberGuard foi idealizado como um projeto de conclusão de curso com o propósito de levar conhecimento sobre cibersegurança para a comunidade de forma simples, acessível e sem jargões complexos.
+            </p>
+            <p class="text-muted mb-24">
+              Acreditamos que a conscientização é a melhor ferramenta de defesa contra os golpes que afetam milhares de brasileiros todos os dias.
+            </p>
+
+            <div class="tech-stack-row">
+              <span class="tech-tag">HTML5 Semântico</span>
+              <span class="tech-tag">CSS3 Moderno</span>
+              <span class="tech-tag">JavaScript ES6+</span>
+              <span class="tech-tag">Web Crypto API</span>
+            </div>
+            
+            <a href="contato.html" class="btn btn-secondary mt-24">Conheça a equipe &rarr;</a>
+          </div>
+
+          <div class="img-card">
+            <img src="mapa mental.webp" alt="Demonstração da interface do projeto CyberGuard e arquitetura" width="500" height="300" loading="lazy">
+            <div class="img-card__fallback">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+              <span>CyberGuard TCC 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="footer__logo-wrapper">
+        <img src="./CYBER.png" alt="CyberGuard Logo" class="footer__logo" width="120" height="40">
+      </div>
+      <p class="text-muted text-sm mb-24 max-w-600 mx-auto">
+        Plataforma educacional sem fins lucrativos focada na prevenção de riscos e segurança da informação.
+      </p>
+      <div class="footer__links">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="dicas.html">Dicas &amp; FAQ</a>
+        <a href="cofre.html">Cofre de Senhas</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <p class="footer__copy">
+        CyberGuard &copy; 2026 — TCC Técnico em Informática para Internet
+      </p>
+    </div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Navegação principal">
+    <div class="bottom-nav__container">
+      <a href="index.html" class="bottom-nav__item active" aria-current="page">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Home</span>
+      </a>
+      <a href="dicas.html" class="bottom-nav__item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+        <span>Dicas</span>
+      </a>
+      <a href="cofre.html" class="bottom-nav__item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span>Cofre</span>
+      </a>
+      <a href="contato.html" class="bottom-nav__item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>Contato</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- BANNER / MODAL DE COOKIES COM IDENTIDADE VISUAL CYBERGUARD -->
+<div id="cookie-banner" class="cookie-banner hidden" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc">
+  <div class="cookie-banner__card">
+    <div class="cookie-banner__header">
+      <div class="cookie-banner__icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+      </div>
+      <h3 id="cookie-title" class="cookie-banner__title">Aviso de Privacidade & Cookies</h3>
+    </div>
+    <p id="cookie-desc" class="cookie-banner__text">
+      O CyberGuard utiliza armazenamento local (IndexedDB e LocalStorage) de forma <strong>100% offline</strong> para manter o cofre de senhas seguro e registrar suas preferências de acessibilidade. Nenhum dado é enviado para servidores externos.
+    </p>
+    <div class="cookie-banner__actions">
+      <button id="btn-accept-cookies" type="button" class="btn btn-primary">Entendido e Continuar</button>
+    </div>
+  </div>
+</div>
+
+  <button id="btn-top" class="btn-top" aria-label="Voltar ao topo da página">&#8593;</button>
+</body>
+</html>
